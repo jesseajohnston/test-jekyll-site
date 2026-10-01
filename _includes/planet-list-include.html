@@ -1,15 +1,16 @@
+
 <!-- display an unordered list of the planet data -->
-<ul>
+<!-- <ul>
 {% for planet in site.data.planet-list %}
   <li><strong>{{ planet.name }}</strong> has color {{ planet.color }}</li>
 {% endfor %}
-</ul>
+</ul> -->
+ <!-- site.data.planet-list -->
 
-<!-- display a table of the planet data -->
 <table>
     <thead><th>Planet</th><th>Atmosphere</th><th>Color</th></thead>
     <tbody>
-        {% for planet in site.data.planet-list %}
+        {% for planet in <planets-list class="csv"></planets-list> %}
         <tr>
             <td>{{ planet.name }}</td>
             <td>{% if planet.atmosphere %}{{ planet.atmosphere }}{% endif %}</td>
