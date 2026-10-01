@@ -23,7 +23,7 @@ email: hadeline@umich.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Attempted website creation for SI 676 Fall 2026
 baseurl: "/test-jekyll-site" # the subpath of your site, e.g. /blog
-url: "https://github.com/Adeline-DH/test-jekyll-site.git" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://Adeline-DH.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
